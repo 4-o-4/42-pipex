@@ -49,6 +49,6 @@ char *find_cmd_in_env(const char *cmd, char **envp) {
     }
     found_path = find_cmd_in_path(path, cmd, strlen(path));
     if (found_path == NULL)
-        perror("[ Command не найдена ]");
+        perror("[ Ошибка: команда не найдена ]");
     return found_path;
 }
