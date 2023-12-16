@@ -1,4 +1,4 @@
-#include "ft_pipex.h"
+#include "../includes/ft_pipex.h"
 
 static char *get_env_var(char *name, char **envp) {
     if (name == NULL || envp == NULL)

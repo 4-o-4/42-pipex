@@ -1,4 +1,4 @@
-#include "ft_pipex.h"
+#include "../includes/ft_pipex.h"
 
 int check_fd(int fd) {
     if (fd == -1) {

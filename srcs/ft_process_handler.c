@@ -1,4 +1,4 @@
-#include "ft_pipex.h"
+#include "../includes/ft_pipex.h"
 
 static int execute_cmd(const char *path, char **args) {
     if (execve(path, args, NULL) == -1) {

@@ -1,4 +1,4 @@
-#include "ft_pipex.h"
+#include "../includes/ft_pipex.h"
 
 static int create_pipe(int *pipe_fd) {
     if (pipe(pipe_fd) == -1) {
